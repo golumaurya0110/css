@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        div{
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            border: 10px solid orange;
+            margin: 80px auto;
+            text-align: center;
+            line-height: 400px;
+           /* animation: abc;
+            animation-duration: 2s;
+            animation-delay: 2s;
+             animation-iteration-count: infinite;
+            animation-direction:alternate-reverse ;*/
+            animation:abc 2s 5s infinite;
+
+        }
+        div:hover{
+            animation-play-state: paused;
+        }
+            @keyframes abc
+             {
+
+            from{
+                background:red;
+                color:purple;
+                border:10px solid black;
+                transform: rotate(0deg);
+            }
+            to{
+
+                background:yellow;
+                color:blue;
+                border:10px solid pink;
+                transform: rotate(360deg);
+            }
+             }
+                
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>code helper my work</div>
+</body>
+</html>

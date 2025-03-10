@@ -1,0 +1,612 @@
+<html>
+<head>
+
+<style>
+#outer{
+height: 800px;
+width: 800px;
+background-color: black;
+ext-align: center;
+font-size: 30px;
+border: 1px solid black;
+}
+#a{
+height: 200px;
+width: 800px;
+background-color: lightblue;
+line-height:200px;
+float: top;    
+	}
+#a1{
+height: 200px;
+width: 100px;
+background-color: white;
+line-height:200px;
+float: left;    
+}
+	#a2{
+		height: 200px;
+		width: 175px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x1{
+		height: 40px;
+		width: 175px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;    
+	}
+	#a2x2{
+		height: 40px;
+		width: 175px;
+		background-color: white;
+		line-height:200px;
+		float: top;    
+	}
+	#a2x2y1{
+		height: 40px;
+		width: 35px;
+		background-color:  lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x2y2{
+		height: 40px;
+		width: 35px;
+		background-color: white ;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x2y3{
+		height: 40px;
+		width: 35px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x2y4{
+		height: 40px;
+		width: 35px;
+		background-color:  white;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x2y5{
+		height: 40px;
+		width: 35px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x3{
+		height: 40px;
+		width: 175px;
+		background-color: lightslategray ;
+		line-height:200px;
+		float: top;    
+	}
+	#a2x4{
+		height: 40px;
+		width: 175px;
+		background-color: white;
+		line-height:200px;
+		float: top;    
+	}
+	#a2x4y1{
+		height: 40px;
+		width: 50px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x4y2{
+		height: 40px;
+		width: 75px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x4y3{
+		height: 40px;
+		width: 50px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a2x5{
+		height: 40px;
+		width: 175px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;    
+	}
+	#a3{
+		height: 200px;
+		width: 250px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x1{
+		height: 40px;
+		width: 250px;
+		background-color:  lightblue;
+		line-height:200px;
+		float: top;    
+	}
+	#a3x2{
+		height: 40px;
+		width: 250px;
+		background-color: white;
+		line-height:200px;
+		float: top;    
+	}
+	#a3x2y1{
+		height: 40px;
+		width: 50px;
+		background-color: lightblue;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x2y2{
+		height: 40px;
+		width: 50px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x2y3{
+		height: 40px;
+		width: 50px;
+		background-color: lightblue;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x2y4{
+		height: 40px;
+		width: 50px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x2y5{
+		height: 40px;
+		width: 50px;
+		background-color: lightblue;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x3{
+		height: 40px;
+		width: 250px;
+		background-color:  lightblue;
+		line-height:200px;
+		float: top;    
+	}
+	#a3x4{
+		height: 40px;
+		width: 250px;
+		background-color: white;
+		line-height:200px;
+		float: top;    
+	}
+	#a3x4y1{
+		height: 40px;
+		width: 75px;
+		background-color: lightblue;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x4y2{
+		height: 40px;
+		width: 100px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x4y3{
+		height: 40px;
+		width: 75px;
+		background-color: lightblue;
+		line-height:200px;
+		float: left;    
+	}
+	#a3x5{
+		height: 40px;
+		width: 250px;
+		background-color:  lightblue;
+		line-height:200px;
+		float: top;    
+	}
+	#a4{
+		height: 200px;
+		width: 175px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x1{
+		height: 40px;
+		width: 175px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;    
+	}
+	#a4x2{
+		height: 40px;
+		width: 175px;
+		background-color: white;
+		line-height:200px;
+		float: top;    
+	}
+	#a4x2y1{
+		height: 40px;
+		width: 35px;
+		background-color:  lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x2y2{
+		height: 40px;
+		width: 35px;
+		background-color: white ;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x2y3{
+		height: 40px;
+		width: 35px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x2y4{
+		height: 40px;
+		width: 35px;
+		background-color:  white;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x2y5{
+		height: 40px;
+		width: 35px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x3{
+		height: 40px;
+		width: 175px;
+		background-color: lightslategray ;
+		line-height:200px;
+		float: top;    
+	}
+	#a4x4{
+		height: 40px;
+		width: 175px;
+		background-color: white;
+		line-height:200px;
+		float: top;    
+	}
+	#a4x4y1{
+		height: 40px;
+		width: 50px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x4y2{
+		height: 40px;
+		width: 75px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x4y3{
+		height: 40px;
+		width: 50px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;    
+	}
+	#a4x5{
+		height: 40px;
+		width: 175px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;    
+	}
+	#a5{
+		height: 200px;
+		width: 100px;
+		background-color: white;
+		line-height:200px;
+		float: left;    
+	}
+	#b{
+		height: 100px;
+		width: 800px;
+		background-color: lightslategray;
+		float: top;   
+	}
+	#b1{
+		height: 100px;
+		width: 25px;
+		background-color: white;
+		float: left;   
+	}
+	#b2{
+		height: 100px;
+		width: 25px;
+		background-color: lightslategray;
+		float: left;   
+	}
+	#b3{
+		height: 100px;
+		width: 275px;
+		background-color: white;
+		float: left;   
+	}
+	#b4{
+		height: 100px;
+		width: 150px;
+		background-color: lightslategray;
+		float: left;   
+	}
+	#b5{
+		height: 100px;
+		width: 275px;
+		background-color: white;
+		float: left;   
+	}
+	#b6{
+		height: 100px;
+		width: 25px;
+		background-color: lightslategray;
+		float: left;   
+	}
+	#b7{
+		height: 100px;
+		width: 25px;
+		background-color: white;
+		float: left;   
+	}
+	#c{
+		height: 400px;
+		width: 800px;
+		background-color: lightblue;
+		line-height:200px;
+		float: top;   
+	}
+	#c1{
+		height: 400px;
+		width: 200px;
+		background-color: lightgoldenrodyellow;
+		line-height:200px;
+		float: left;   
+	}
+	#c1x1{
+		height: 100px;
+		width: 200px;
+		background-color: lightgoldenrodyellow;
+		line-height:200px;
+		float: top;   
+	}
+	#c1x1y1{
+		height: 100px;
+		width: 75px;
+		background-color: lightcoral;
+		line-height:200px;
+		float: left;   
+	}
+	#c1x1y2{
+		height: 100px;
+		width: 125px;
+		background-color: white;
+		line-height:200px;
+		float: left;   
+	}
+	#c1x2{
+		height: 100px;
+		width: 200px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;   
+	}
+	#c1x3{
+		height: 200px;
+		width: 200px;
+		background-color: white;
+		line-height:200px;
+		float: top;   
+	}
+	#c2{
+		height: 400px;
+		width: 400px;
+		background-color: lightblue;
+		line-height:200px;
+		float: left;   
+	}
+	#c3{
+		height: 400px;
+		width: 200px;
+		background-color: lightgoldenrodyellow;
+		line-height:200px;
+		float: left;   
+	}
+	#c3x1{
+		height: 100px;
+		width: 200px;
+		background-color: lightgoldenrodyellow;
+		line-height:200px;
+		float: top;   
+	}
+	#c3x1y1{
+		height: 100px;
+		width: 125px;
+		background-color: white;
+		line-height:200px;
+		float: left;   
+	}
+	#c3x1y2{
+		height: 100px;
+		width: 75px;
+		background-color: lightcoral;
+		line-height:200px;
+		float: left;   
+	}
+	#c3x2{
+		height: 100px;
+		width: 200px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;   
+	}
+	#c3x3{
+		height: 200px;
+		width: 200px;
+		background-color: white;
+		line-height:200px;
+		float: top;   
+	}
+	#d{
+		height: 100px;
+		width: 800px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: top;   
+	}
+	#d1{
+		height: 100px;
+		width: 225px;
+		background-color: white;
+		line-height:200px;
+		float: left;   
+	}
+	#d2{
+		height: 100px;
+		width: 100px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;   
+	}
+	#d3{
+		height: 100px;
+		width: 150px;
+		background-color: white;
+		line-height:200px;
+		float: left;   
+	}
+	#d4{
+		height: 100px;
+		width: 100px;
+		background-color: lightslategray;
+		line-height:200px;
+		float: left;   
+	}
+	#d5{
+		height: 100px;
+		width: 225px;
+		background-color: white;
+		line-height:200px;
+		float: left;   
+	}
+</style>
+</head>
+<body>
+<div id = "outer" >
+	<div id = "a" >
+		<div id = "a1" ></div>
+		<div id = "a2" >
+			<div id = "a2x1" ></div>
+			<div id = "a2x2" >
+				<div id = "a2x2y1" ></div>
+				<div id = "a2x2y2" ></div>
+				<div id = "a2x2y3" ></div>
+				<div id = "a2x2y4" ></div>
+				<div id = "a2x2y5" ></div>
+			</div>
+			<div id = "a2x3" ></div>
+			<div id = "a2x4" >
+				<div id = "a2x4y1" ></div>
+				<div id = "a2x4y2" ></div>
+				<div id = "a2x4y3" ></div>
+			</div>
+			<div id = "a2x5" ></div>
+		</div>
+		<div id = "a3" >
+			<div id = "a3x1" ></div>
+			<div id = "a3x2" >
+				<div id = "a3x2y1" ></div>
+				<div id = "a3x2y2" ></div>
+				<div id = "a3x2y3" ></div>
+				<div id = "a3x2y4" ></div>
+				<div id = "a3x2y5" ></div>
+			</div>
+			<div id = "a3x3" ></div>
+			<div id = "a3x4" >
+				<div id = "a3x4y1" ></div>
+				<div id = "a3x4y2" ></div>
+				<div id = "a3x4y3" ></div>
+			</div>
+			<div id = "a3x5" ></div>
+		</div>
+		<div id = "a4" >
+			<div id = "a4x1" ></div>
+			<div id = "a4x2" >
+				<div id = "a4x2y1" ></div>
+				<div id = "a4x2y2" ></div>
+				<div id = "a4x2y3" ></div>
+				<div id = "a4x2y4" ></div>
+				<div id = "a4x2y5" ></div>
+			</div>
+			<div id = "a4x3" ></div>
+			<div id = "a4x4" >
+				<div id = "a4x4y1" ></div>
+				<div id = "a4x4y2" ></div>
+				<div id = "a4x4y3" ></div>
+			</div>
+			<div id = "a4x5" ></div>
+		</div>
+		<div id = "a5" ></div>
+	</div>
+	<div id = "b" >
+		<div id = "b1" ></div>
+		<div id = "b2" ></div>
+		<div id = "b3" ></div>
+		<div id = "b4" ></div>
+		<div id = "b5" ></div>
+		<div id = "b6" ></div>
+		<div id = "b7" ></div>
+	</div>
+	<div id = "c" >
+		<div id = "c1" >
+			<div id = "c1x1" >
+				<div id = "c1x1y1" ></div>
+				<div id = "c1x1y2" ></div>
+			</div>
+			<div id = "c1x2" ></div>
+			<div id = "c1x3" ></div>
+		</div>
+		<div id = "c2" ></div>
+		<div id = "c3" >
+			<div id = "c3x1" >
+				<div id = "c3x1y1" ></div>
+				<div id = "c3x1y2" ></div>
+			</div>
+			<div id = "c3x2" ></div>
+			<div id = "c3x3" ></div>
+		</div>
+	</div>
+	<div id = "d" >
+		<div id = "d1" ></div>
+		<div id = "d2" ></div>
+		<div id = "d3" ></div>
+		<div id = "d4" ></div>
+		<div id = "d5" ></div>
+	</div>
+</div>
+</body>
+</html>

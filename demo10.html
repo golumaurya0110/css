@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            min-height: 800px; 
+            width: 1200px;
+            border: 2px solid black;
+            margin: 0px auto;
+        }
+        #slider{
+            height: 600px;
+            width: 1200px;
+            background: url(re.jpg);
+            background-size: cover;
+        animation: slider;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        }
+        #slider1{
+            height: 600px;
+            width: 1200px;
+            background: rgba(0,0,0,.5);;
+        }
+        #slider:hover{
+            animation-play-state: paused;
+        }
+        @keyframes slider {
+            0%{background: url(re.jpg);
+                background-size: cover;
+                background-attachment: fixed;}
+            50%{background: url(i.jpg);
+                background-size: cover;
+                background-attachment: fixed;}
+            100%{background: url(z.jpg);
+                background-size: cover;
+                background-attachment: fixed;}
+               }
+    #top{
+        height: 50px;
+        width: 1200px;
+    }
+    #logo{
+        height: 50px;
+        width: 600px;
+        float: left;
+    }
+    #menu{
+        height: 50px;
+        width: 600px;
+        float: left;
+    }
+    #menu ul{
+        list-style: none;
+    }
+    #menu ul li/*child selector*/
+    {
+height: 45px;
+width: 90px;
+text-align: center;
+line-height: 45px;
+/*transform:translateY(-3px);*/
+color: white;
+font-weight: bold;
+transition: all 1s;
+float: left;
+text-decoration: none;
+backdrop-filter: blur(5px);
+
+    }
+    #menu ul li:hover{
+        background-color: #E91E63;
+        transition: all 1s;
+        color: white;
+    }
+    .im{
+        border-radius: 50%;
+        border:10px solid white;
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 60px auto;
+        display: block;
+        animation: abc 2s infinite alternate;
+    }
+    @keyframes abc {
+        0%{
+            box-shadow: 0px 0px 1px rgba(234, 80, 78,1);
+        }
+        100%{
+            box-shadow: 0px 0px 0px 10px rgba(234, 80, 78,.8),
+            0px 0px 0px 20px rgba(234, 80, 78,.6),
+            0px 0px 0px 40px rgba(234, 80, 78,.4),
+            0px 0px 0px 60px rgba(234, 80, 78,.2);
+        }
+    }
+    
+#btn{
+    height: 50px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: rgba(243, 80, 78,1);
+    font-weight: bold;
+    margin: 0px auto;
+    backdrop-filter: blut(4px);
+
+}
+ #about{
+            min-height: 350px;
+            width: 1200px;
+            padding: opx 100px;
+            box-sizing: border-box;
+        }
+
+        #ufooter{
+           min-height: 500px;
+            width: 1200px;
+            padding: 60px 60px;
+            box-sizing: border-box;
+            background-color:rgba(0, 0, 0,.6);
+        }
+        #ufooter1{
+            height: 310px;
+            width: 277px;
+           
+        
+            background-color:rgba(0, 0, 0,.6);
+            float: left;
+        }
+        #ufooter2{
+            height: 314px;
+            width: 230px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            color: white;
+            line-height: 30px;
+            background-color:rgba(0, 0, 0,.6);
+            float: left;
+        }
+        #ufooter3{
+            height: 314px;
+            width: 200px;
+            border: 1px solid red;
+            background-color:rgba(0, 0, 0,.6);
+            float: left;
+        }
+        #ufooter4{
+            height: 314px;
+            width: 280px;
+            border: 1px solid red;
+            background-color:rgba(0, 0, 0,.6);
+            float: left;
+        }
+        #bfooter{
+            height: 50px;
+            width: 1200px;
+            background-color:rgba(0, 0, 0,.8);
+        }
+        #heading{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 25px;
+        }
+        #about1{
+            min-height: 350px;
+            width: 1000px;
+            margin-left: 150px;
+        }
+        #left{
+            height: 350px;
+            width: 300px;
+            float: left;
+            
+            padding-top: 10px;
+            box-sizing: border-box;
+        }
+        #right{
+            height: 350px;
+            width: 600px;
+            float: left;
+            padding: 10px;
+        
+            box-sizing: border-box;
+            text-align: justify;
+            
+        }
+       
+        #left img{
+            height: 300px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+   <div id="outer">
+       <div id="slider">
+           <div id="silder1">
+               <div id="top">
+                   <div id="logo"></div>
+                   <div id="menu">
+                       <ul>
+                         <a href="#"><li>Home</li></a>  
+                         <a href="#"><li>AboutUs</li></a>  
+                         <a href="#"><li>Register</li></a>  
+                         <a href="#"><li>Contact Us</li></a>  
+                         <a href="#"><li>Login</li></a>  
+                     
+                        </ul>
+                   </div>
+               </div>
+           
+       <img src="z.jpg"class="im"alt="">
+       <div style="font-size: 60px;text-align: center;font-family: Arial;
+       font-weight: bold;color: rgb(234, green80, blue78,1);">AMAN KUMAR</div>
+      <a href="#"id="btn">Downlode CV</a>
+    </div>
+ </div>
+       <div id="about">
+        <div di="heading"style="text-align:center;">ABOUT<b style="color: rgb(342,80, blue78,1);">US</b></div>
+        <div id="about1">
+            <div id="left">
+                <img src="rr.png"alt="">
+            </div>
+            <div id="right">
+                <h2>Hello,I'M AMAN</h2><br/>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Eius ut minus fugiat dolore ducimus nesciunt totam quos temporibus perferendis
+                  asperiores at consequatur, voluptates,
+                 molestias numquam quidem facere nisi. Provident, consequatur.<br/><BR/><br/>
+                 NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aman<br/><r/>
+                 Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pathrawan<br/><r/>
+                 Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15/07/2004<br/><r/>
+                 Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7398607207<br/><r/>
+                 Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;amank525180@gmail.com<br/><r/>
+                 Webside:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wwwww.cim<br/><br/>
+                 <button class="btn">DOWNLODE CV</button>
+                 <button class="bt">SEN A MAEEAGE</button>
+            </div>    
+        </div>
+
+       </div>
+       <div id="ufooter">
+        <div id="ufooter1">
+            <img src="c.jpeg">
+            <img src="q.jpeg">
+            <img src="a.jpeg">
+        </div>
+        <div id="ufooter2">
+            <h3>Useful link</h3>
+            <ul type="none">
+                <li>>&nbsp;&nbsp;&nbsp;Home</li>
+                <li>>&nbsp;&nbsp;&nbsp;Aoutus</li>
+                <li>>&nbsp;&nbsp;&nbsp;placement</li>
+                <li>>&nbsp;&nbsp;&nbsp;Contact us</li>
+                <li>>&nbsp;&nbsp;&nbsp;Our Team</li>
+                <li>>&nbsp;&nbsp;&nbsp;Term&Conditions</li>
+            </ul>
+        </div>
+        <div id="ufooter3"></div>
+        <div id="ufooter4"></div>
+       </div>
+   <div id="bfooter"></div>    
+
+</div> 
+</body>
+</html>

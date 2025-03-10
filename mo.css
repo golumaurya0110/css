@@ -1,0 +1,17 @@
+h1{
+	fount-size:100px;
+	text-align:center;
+	line-height:200px;
+	text-shadow:10px 10px 10px gray;,20px 20px 20px blue;
+	color:white;
+	transition:all 2s;
+}
+h1:hover{
+	color:yellowgreen;
+	font-size:250px;
+		text-shadow:100px 100px 10px purple;,200px 200px 20px blue;
+		/*transition:color 10s,text-shadow4s,font-size:4s;*/
+		transition:all 5s;
+		
+
+}

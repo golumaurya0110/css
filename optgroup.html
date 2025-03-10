@@ -1,0 +1,49 @@
+
+<html>
+<body>
+
+<h1>Use TO Optgroup</h1>
+<select>
+    <optgroup label="Frontend Technologies">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+    </optgroup>
+    <optgroup label="Backend Technologies">
+        <option value="node">Node.js</option>
+        <option value="express">Express.js</option>
+        <option value="mongodb">MongoDB</option>
+    </optgroup>
+</select>
+<hr/>
+<h1>NOT USE TO OPTGROUP</H1>
+<select>
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="js">JavaScript</option>
+    <option value="node">Node.js</option>
+    <option value="express">Express.js</option>
+    <option value="mongodb">MongoDB</option>
+</select>
+<hr/>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username" placeholder="Enter your name" required><BR/>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="useremail" required></br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="userage" min="18" max="60" required><br/>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

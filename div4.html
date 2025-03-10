@@ -1,0 +1,37 @@
+<htnl>
+<head>
+<style>
+#box{
+height:300px;
+width:300px;
+background:red;
+border-radius:10px;
+position:absolute;
+animation-name:move;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-delay:1s;
+}
+
+
+@keyframes move{
+from{
+background:gray;
+left:0px;
+top:0px;
+rotate:0px;
+}
+to{
+background:yellow;
+
+left:50%;
+
+rotate:360deg;
+}
+}
+</style>
+<head>
+<body>
+<div id="box"></div>  
+</body>
+</html>

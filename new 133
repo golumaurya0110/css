@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+#a.#c{
+border:200px groove violet;
+color:violet;
+font-size:50px;
+text-align:center;
+}
+</style>
+    <title>Document</title>
+    <link href="mo.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <p id="a">THIS IS A PIRST PAGE</p>
+    <p id="b">THIS IS A PIRST PAGE</p>
+    <p id="c">THIS IS A PIRST PAGE</p>
+    <p id="d">THIS IS A PIRST PAGE</p>
+</body>
+</html>

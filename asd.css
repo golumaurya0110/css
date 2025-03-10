@@ -1,0 +1,15 @@
+#a,#c,#e{
+    color: salmon;
+    background-color: skyblue;
+    text-shadow: 5px 5px 2px green;
+    border: 3px solid;
+    font-size: 20px;
+    }
+	#b,#d
+	{
+		color:red;
+		background-color:yellow;
+		border:4px dotted;
+		font-size:20px;
+		text-shadow:-5px -5px green;
+	}
