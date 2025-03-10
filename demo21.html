@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .a{
+            height: 200px;
+            width: 200px;
+            font-size: 30px;
+            background-color: mediumvioletred;
+            animation: dfg;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            top: 0px;
+            left: 20px;
+        }
+        .b{
+            height: 200px;
+            width: 200px;
+            font-size: 20px;
+            animation: dfg;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-delay: 5s;
+            background-color: palegreen;
+            position: relative;
+            top: 0px;
+            left: 500px;
+        }
+        .c{
+            height: 200px;
+            width: 200px;
+            font-size: 20px;
+            background-color: grey;
+            animation: dfg;
+            animation-duration: 50s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 0px;
+            left: 500px;
+
+        }
+        @keyframes dfg{
+            0%{background-color: yellow;
+            color: red;
+            top: 0px;
+            left:700px;
+            border: 10px solid olive;}
+            20%{background-color: sienna;
+            left: 700px;
+            color: green;
+            bottom: 500px;
+            border: 20px solid aqua;}
+            50%{background-color:blueviolet ;
+            bottom: 500px;
+            right: 700px;
+            color: indianred;
+            border-radius: 50px;}
+            100%{background-color:orange;
+            transform: rotate(360deg);
+            bottom: 700px;
+            color: lawngreen;
+            top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="a">my name aman kumar maurya</div>
+    <div class="b">i am from pathrawan kaushambi</div>
+    <div class="c">i am a fullstack developer</div>
+</body>
+</html>

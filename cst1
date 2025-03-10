@@ -1,0 +1,15 @@
+<html>
+<head>
+<style>
+body{
+background:red;
+}
+
+</style>
+
+</head>
+<body>
+<div id=outer></div>
+
+</body>
+</html>

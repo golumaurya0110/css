@@ -1,0 +1,14 @@
+<html>
+<head>
+<style>
+#outer{
+height:600px;
+width:800px;
+background-color:black;
+}
+</style>
+</head>
+<body>
+<div id="outer"></div>
+</body>
+</html>
